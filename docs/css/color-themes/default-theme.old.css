@@ -12,6 +12,8 @@
 .checkout-form .form-group .field-label span,
 .checkout-page .default-links li a,
 .checkout-page .default-links li .fa,
+.list-style-one li:before,
+.about-us .content-column .list-style-one li:before,
 .product-info-tabs .prod-tabs .add-review .rating .rate-box:hover,
 .product-info-tabs .prod-tabs .add-review .rating .rate-box:focus,
 .product-info-tabs .prod-tabs .add-review .rating .rate-box:active,
@@ -33,8 +35,6 @@
 .main-footer .services-list li a:hover,
 .main-footer .about-widget .social-icon li a:hover,
 .call-to-action.style-two .btn-box .theme-btn:hover,
-.about-us .content-column .list-style-one li:before,
-.list-style-one li:before,
 .call-to-action .title-box h3 span,
 .map-data h6,
 .contact-info ul li:hover .icon,
@@ -52,7 +52,7 @@
 .news-block-two .content h3 a:hover,
 .news-block-two .info-box li a:hover,
 .testimonial-block-three .rating span,
-.testimonial-carousel-two .owl-prev:hover,
+.testimonial-carousel-two .owl-prev:hover, 
 .testimonial-carousel-two .owl-next:hover,
 .testimonial-carousel-two .owl-nav:before,
 .testimonial-block-two .info-box .rating i,
@@ -82,7 +82,7 @@
 .service-block-two .read-more,
 .service-block-two h3 a:hover,
 .service-block-two:hover .icon-box,
-.features-carousel .owl-prev:hover,
+.features-carousel .owl-prev:hover, 
 .features-carousel .owl-next:hover,
 .feature-block .lower-content h3 a:hover,
 .fun-fact-two .count-box .counter-title h3,
@@ -112,13 +112,13 @@
 .list-style-one li:before,
 .theme_color,
 a{
-	color: #e81f32;
+	color: #1c63b8;
 }
 
 /*Background Color*/
 .news-block-two .date-and-like .like,
-.ui-state-active, .ui-widget-content .ui-state-active,
-.ui-widget-header .ui-state-active, a.ui-button:active,
+.ui-state-active, .ui-widget-content .ui-state-active, 
+.ui-widget-header .ui-state-active, a.ui-button:active, 
 .ui-button:active, .ui-button.ui-state-active:hover,
 .order-box .title-box,
 .sidebar-widget .range-slider-one .ui-state-default,
@@ -138,11 +138,11 @@ a{
 .testimonial-block-two .image-box:after,
 .testimonial-carousel-three .owl-dots .owl-dot.active,
 .testimonial-carousel-three .owl-dots .owl-dot:hover,
-.testimonial-carousel .owl-prev:hover,
+.testimonial-carousel .owl-prev:hover, 
 .testimonial-carousel .owl-next:hover,
 .testimonial-block .icon,
 .team-block .social-icon,
-.news-carousel .owl-prev:hover,
+.news-carousel .owl-prev:hover, 
 .news-carousel .owl-next:hover,
 .news-block .label .likes,
 .subscribe-section .inner-container,
@@ -173,18 +173,19 @@ a{
 .btn-style-two:hover,
 .btn-style-one,
 .main-menu .navigation > li.current > a{
-	background-color: #e81f32;
+	background-color: #1c63b8;
 }
 
+
 .service-block .caption-box{
-	background-color: rgba(255,65,54, .80);
+	background-color: rgba(28,99,184, .80);
 }
 
 /*Border Color*/
 .service-form .form-group input:focus,
 .service-form .form-group textarea:focus,
-.ui-state-active, .ui-widget-content .ui-state-active,
-.ui-widget-header .ui-state-active, a.ui-button:active,
+.ui-state-active, .ui-widget-content .ui-state-active, 
+.ui-widget-header .ui-state-active, a.ui-button:active, 
 .ui-button:active, .ui-button.ui-state-active:hover,
 .login-form .form-group input[type="text"]:focus,
 .login-form .form-group input[type="password"]:focus,
@@ -230,7 +231,7 @@ a{
 .styled-pagination li a:hover,
 .styled-pagination li a.active,
 .blog-detail blockquote,
-.testimonial-carousel .owl-prev:hover,
+.testimonial-carousel .owl-prev:hover, 
 .testimonial-carousel .owl-next:hover,
 .testimonial-block.even:before,
 .testimonial-block .thumb,
@@ -247,29 +248,29 @@ a{
 .main-menu .navigation > li > ul,
 .btn-style-five:hover,
 .btn-style-four:hover{
-	border-color: #e81f32;
+	border-color: #1c63b8;
 }
 
 .main-header  .dropdown-menu{
-	border-top-color: #e81f32;
+	border-top-color: #1c63b8;
 }
 
 .testimonial-block.even .icon:after,
 .testimonial-block .icon:after,
 .fun-fact-section .count-box .counter-title h5:before{
-	border-bottom-color: #e81f32;
+	border-bottom-color: #1c63b8;
 }
 
 .main-header .search-box-btn {
-   border: 1px dashed #e81f32;
+   border: 1px dashed #1c63b8;
 }
 
 @media only screen and (max-width: 767px){
-
+	
 	.main-menu .navbar-header .navbar-toggle{
-		border-color:#e81f32;
+		border-color:#1c63b8;
 	}
-
+	
 	.main-menu .navbar-header .navbar-toggle,
 	.main-menu .navbar-collapse > .navigation,
 	.main-menu .navbar-collapse > .navigation > li > ul,
@@ -286,7 +287,7 @@ a{
 	.main-menu .navbar-collapse > .navigation > li.current > a,
 	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a,
 	.header-style-two.inner-header .main-menu .navigation > li > a{
-		background-color:#e81f32;
+		background-color:#1c63b8;
 	}
-
+	
 }
